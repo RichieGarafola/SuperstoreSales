@@ -104,7 +104,10 @@ finally:
         sales_data = sales_data.query("ProductName in @product_name")
 
 
-# ---- MAINPAGE ----
+############
+# Dashboard
+############
+
 st.title(":bar_chart: Sales Dashboard")
 st.markdown("##")
 
@@ -169,7 +172,10 @@ first_chart, second_chart = st.columns(2)
 first_chart.plotly_chart(profit_pie, use_container_width=True)
 second_chart.plotly_chart(sales_pie, use_container_width=True)
 
-# ---- HIDE STREAMLIT STYLE ----
+######################
+# HIDE STREAMLIT STYLE
+#####################
+
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
