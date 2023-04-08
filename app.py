@@ -2,8 +2,6 @@ import pandas as pd
 import streamlit as st 
 import plotly.graph_objects as go
 import plotly.express as px
-
-from PIL import Image
  
 st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout="wide")
 
@@ -13,11 +11,6 @@ def get_data(path:str)->pd.DataFrame:
         path,
     )
     return data_frame
-
-@st.cache_data
-def get_image(path:str)->Image:
-    image = Image.open(path)
-    return image
 
 sales_data = get_data("Resources/Superstore.csv")
 st.sidebar.header("Filter Your Data")
