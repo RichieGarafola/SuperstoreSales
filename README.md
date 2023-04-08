@@ -18,6 +18,7 @@ Using the app, John is able to create a comprehensive report on the sales data, 
 Thanks to the Sales Dashboard App, John was able to quickly and easily analyze the sales data and provide valuable insights to his company.
 
 To view the Streamlit App, click [here](./app.py).
+Deployable Streamlit App: https://superstoresales.streamlit.app/
 
 ---
 
@@ -27,7 +28,6 @@ To get started, you need to have the following installed:
     Python 3
     Streamlit
     Pandas
-    PIL
     Plotly
     
 ---
