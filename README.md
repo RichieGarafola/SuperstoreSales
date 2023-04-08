@@ -28,7 +28,6 @@ To get started, you need to have the following installed:
     Python 3
     Streamlit
     Pandas
-    PIL
     Plotly
     
 ---
