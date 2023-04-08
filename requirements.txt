@@ -1,0 +1,4 @@
+pandas==1.5.3
+plotly.graph_objects
+plotly.express==0.4.1
+streamlit==1.21.0
