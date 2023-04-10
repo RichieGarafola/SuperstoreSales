@@ -8,7 +8,6 @@ The app offers a range of features that enable you to gain insights into your sa
 
 Getting started with the Sales Dashboard App is easy, and all you need is Python 3, Streamlit, Pandas, PIL, and Plotly installed on your computer. Simply clone this repository, install the required packages, and run the app.py file to start using the app. I hope my Sales Dashboard App helps you gain valuable insights into your sales performance and make data-driven decisions that improve your bottom line!
 
-
 Meet John, a sales manager at a company that sells office supplies. John has been tasked with analyzing the sales data for the past year and presenting his findings to the executive team. However, he's having trouble making sense of the vast amount of data.
 
 That's when John discovers the Sales Dashboard App. With this app, he's able to easily filter the data by region, state, city, category, sub-category, and product name. The app generates various visualizations based on the filtered data, allowing John to quickly identify trends and patterns in the sales data.
